@@ -1,0 +1,40 @@
+body {
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.container {
+  width: 300px;
+  margin: auto;
+  background: white;
+  font-family: "Roboto", sans-serif;
+  padding: 30px;
+
+  text-align: left;
+}
+.about {
+  font-size: larger;
+  font-family: "Roboto", sans-serif;
+}
+.about-me {
+  color: rgb(100, 97, 97);
+}
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+}
+
+button {
+  width: 130px;
+  padding: 15px;
+  background: rgb(29, 27, 27);
+
+  font-size: large;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
